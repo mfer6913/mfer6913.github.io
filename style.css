@@ -1,3 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Dosis:wght@300&family=Poppins&family=Roboto:wght@300&family=Goldman:wght@700&display=swap');
+
+body{
+  font-family:"roboto";
+  background-color: rgb(243, 243, 248)
+}
+
+
 h1{
-	color: red;
+  font-size:250%;
+  color:#ff0000;
+}
+
+h2{
+  font-size:180%;
+  font-family:"poppins";
+  color:#30475e
+}
+
+h2:hover{
+  color:rgba(85,0,255,0.70);
+}
+
+b{
+  color:#000000;
+}
+
+span{
+  color:#ff0000;
+}
+
+li{
+  font-size:120%;
+  font-family:"dosis";
+}
+
+p{
+  font-size:120%;
+  font-family:"dosis";
+}
+.btn{
+  background-color:rgba(85,0,255,1);
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 20px;
+  color:#ffffff;
+  font-size:150%;
+  font-family:"fredoka one";
+}
+
+.btn:hover{
+  font-size:200%;
+  background-color:#ffffff;
+  color:rgba(85,0,255,1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.goldman{
+  font-family:"goldman";
+  font-size:100%;
+}
+
+.center{
+  text-align: center
+}
+
+.cadre{
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.07);
+  background-color:white;
+  margin: 16px 60px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cadre:hover{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.cadre img{
+    border-radius: 50%;
+}
+
+.cadre:hover{
+  color:#000000;
+}
+
+.div1{
+  margin-top:60px
+}
+.div1:hover{
+  background-color:rgba(85,0,255,0.70);
+}
+
+.divlast{
+  margin-bottom: 60px
+}
+
+#first:hover span{
+  color:#000000;
+}
+
+#first:hover b{
+  color:#ff0000;
+}
+
+.champs {
+  margin: 10px;
+  padding: 23px;
+  height: 5px;
+  width: 500px;
 }
