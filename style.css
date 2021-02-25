@@ -113,3 +113,10 @@ p{
   height: 5px;
   width: 500px;
 }
+
+#sticky-bar{
+  position: sticky;
+  height: 100px;
+  background-color: white;
+  top: 0px;
+  z-index: 2;
